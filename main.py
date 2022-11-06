@@ -8,7 +8,7 @@ import numpy as np
 face_classifier = cv2.CascadeClassifier(r'C:\Users\varun\Desktop\truehcl\Emotion_Detection_CNN-main\haarcascade_frontalface_default.xml')
 classifier =load_model(r'C:\Users\varun\Desktop\truehcl\Emotion_Detection_CNN-main\model.h5')
 
-emotion_labels = ['Agressive','Drunken','Anxious','Healthy','Boring', 'Posible ILL', 'Hyper Reacting']
+emotion_labels = ['Aggressive','Drunken','Anxious','Healthy','Boring', 'Possibly ILL', 'Hyper Reacting']
 
 cap = cv2.VideoCapture(0)
 
